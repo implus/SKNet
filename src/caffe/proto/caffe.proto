@@ -1,0 +1,21 @@
+syntax = "proto2";
+
+package caffe;
+
+message LayerParameter {
+  optional BatchNormParameter batch_norm_param = 200; // add batch_norm_param to your own caffe.proto (it stands for CuDNNBatchNorm by default)
+}
+
+message BatchNormParameter { // it stands for CuDNNBatchNorm by default
+  // If false, accumulate global mean/variance values via a moving average. If
+  // true, use those accumulated values instead of computing mean/variance
+  // across the batch.
+  optional bool frozen = 1;
+  // How much does the moving average decay each iteration?
+  optional float momentum = 2 [default = .999];
+  // Small value to add to the variance estimate so that we don't divide by
+  // zero.
+  optional float eps = 3 [default = 1e-5];
+  optional FillerParameter scale_filler = 4;
+  optional FillerParameter bias_filler = 5;
+}
