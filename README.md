@@ -5,7 +5,7 @@ By Xiang Li<sup>[1,2]</sup>, Wenhai Wang<sup>[3,2]</sup>, Xiaolin Hu<sup>[4]</su
 
 ## Approach
 <div align="center">
-  <img src="https://github.com/implus/SKNet/blob/master/figures/SK_cropped.pdf">
+  <img src="https://github.com/implus/SKNet/blob/master/figures/sknet.jpg">
 </div>
 <p align="center">
   Figure 1: The Diagram of a Selective Kernel Convolution module.
