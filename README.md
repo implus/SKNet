@@ -45,6 +45,7 @@ Table 2. Single crop validation error on ImageNet-1k (center 224x224/320x320 cro
 |SKNet-101         |20.19|18.40|48.9M|8.46|
 
 Download:
+
 |Model|caffe model|
 |:-:|:-:|
 |SKNet-50|[GoogleDrive](https://drive.google.com/file/d/1EKanqFkqoU3L6vgSLW3GjPciesZ2rrUH/view?usp=sharing)|
