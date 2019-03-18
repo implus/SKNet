@@ -1,4 +1,4 @@
-# SKNet: Selective Kernel Networks <sub>([paper]())</sub>
+# SKNet: Selective Kernel Networks <sub>([paper](https://arxiv.org/pdf/1903.06586.pdf))</sub>
 By Xiang Li<sup>[1,2]</sup>, Wenhai Wang<sup>[3,2]</sup>, Xiaolin Hu<sup>[4]</sup> and Jian Yang<sup>[1]</sup>
 
 [PCALab, Nanjing University of Science and Technology]<sup>[1]</sup> [Momenta](https://momenta.ai/)<sup>[2]</sup> [Nanjing University]<sup>[3]</sup> [Tsinghua University]<sup>[4]</sup>.
