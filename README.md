@@ -71,9 +71,9 @@ More details of attention distributions on specific images are as follows:
 
 If you use Selective Kernel Convolution in your research, please cite the paper:
     
-    @inproceedings{,
+    @inproceedings{li2019selective,
       title={Selective Kernel Networks},
-      author={Xiang Li and Wenhai Wang and Xiaolin Hu and Jian Yang},
+      author={Li, Xiang and Wang, Wenhai and Hu, Xiaolin and Yang, Jian},
       journal={IEEE Conference on Computer Vision and Pattern Recognition},
       year={2019}
     }
