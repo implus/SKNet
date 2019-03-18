@@ -53,6 +53,18 @@ Download:
 
 ## Attention weights correspond to object scales in low/middle layers
 We look deep into the selection distributions from the perspective of classes on SK_2_3 (low), SK_3_4 (middle), SK_5_3 (high) layers:
+<div align="center">
+  <img src="https://github.com/implus/SKNet/blob/master/figures/cls_attention_diff.jpg">
+</div>
+<p align="center">
+  Figure 2: Average mean attention difference (mean attention value of kernel 5x5 minus that of kernel 3x3) on SK units of SKNet-50, for each of 1,000 categories using all validation samples on ImageNet. On low or middle level SK units (e.g., SK\_2\_3, SK\_3\_4), 5x5 kernels are clearly imposed with more emphasis if the target object becomes larger (1.0x -> 1.5x).
+</p>
+
+More details of attention distributions on specific images are as follows:
+<div align="center">
+  <img src="https://github.com/implus/SKNet/blob/master/figures/pics_attention_3_scales.png">
+</div>
+
 
 
 ## Citation
