@@ -25,7 +25,7 @@ There are two new layers introduced for efficient training and inference, these 
 Table 2. Single crop validation error on ImageNet-1k (center 224x224/320x320 crop from resized image with shorter side = 256). 
 
 | Model | Top-1 224x | Top-1 320x | #P | GFLOPs | 
-|:-:|:-:|:-:|:-:|:-:|:-:|
+|:-:|:-:|:-:|:-:|:-:|
 |ResNeXt-50        |22.23|21.05|25.0M|4.24|
 |AttentionNeXt-56  |21.76|–    |31.9M|6.32|
 |InceptionV3       |–    |21.20|27.1M|5.73|
@@ -46,7 +46,7 @@ Table 2. Single crop validation error on ImageNet-1k (center 224x224/320x320 cro
 
 Download:
 |Model|caffe model|
-|:-:|:-:|:-:|
+|:-:|:-:|
 |SKNet-50|[GoogleDrive](https://drive.google.com/file/d/1EKanqFkqoU3L6vgSLW3GjPciesZ2rrUH/view?usp=sharing)|
 |SKNet-101|[GoogleDrive]()|
 
