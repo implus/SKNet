@@ -51,6 +51,8 @@ Download:
 |SKNet-50|[GoogleDrive](https://drive.google.com/file/d/1EKanqFkqoU3L6vgSLW3GjPciesZ2rrUH/view?usp=sharing)|
 |SKNet-101|[GoogleDrive]()|
 
+Note: SKNet-101 model is deleted by mistake. We are retraining a model and it will come soon in 2-3 days.
+
 ## Attention weights correspond to object scales in low/middle layers
 We look deep into the selection distributions from the perspective of classes on SK_2_3 (low), SK_3_4 (middle), SK_5_3 (high) layers:
 <div align="center">
