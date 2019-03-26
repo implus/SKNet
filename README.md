@@ -49,9 +49,10 @@ Download:
 |Model|caffe model|
 |:-:|:-:|
 |SKNet-50|[GoogleDrive](https://drive.google.com/file/d/1EKanqFkqoU3L6vgSLW3GjPciesZ2rrUH/view?usp=sharing)|
-|SKNet-101|[GoogleDrive]()|
+|SKNet-101|[GoogleDrive](https://drive.google.com/file/d/1NEYIYeSXQeinLGU5GH2hf8T6MJytzt0U/view?usp=sharing)|
 
-Note: SKNet-101 model is deleted by mistake. We are retraining a model and it will come soon in 2-3 days.
+20190323_Update: SKNet-101 model is deleted by mistake. We are retraining a model and it will come soon in 2-3 days.
+20190326_Update: SKNet-101 model is ready.
 
 ## Attention weights correspond to object scales in low/middle layers
 We look deep into the selection distributions from the perspective of classes on SK_2_3 (low), SK_3_4 (middle), SK_5_3 (high) layers:
